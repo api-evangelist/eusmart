@@ -1,8 +1,22 @@
 aid: eusmart
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eusmart.png
 name: EuSmart
-description: 'EuSmart is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'EuSmart is a London, UK based company developing a new form of pan-European internet service
+  provider (ISP), backed by Insight Partners and tracked in the API Evangelist network as a consumer-sector
+  portfolio lead. No public developer portal, API documentation, or machine-readable API specification has
+  been located to date, so this profile remains a stub awaiting a real API surface before artifact enrichment
+  can proceed.'
 url: https://raw.githubusercontent.com/api-evangelist/eusmart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +26,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Internet Service Provider
+- Telecommunications
+- Connectivity
+- Europe
+- Insight Partners Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
